@@ -1,0 +1,36 @@
+*{
+	@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+}
+	h2{
+text-align: center;
+font-size: 64px;
+}
+
+.catalogue_p{
+	font-family: Cormorant Garamond;
+	font-size: 18px;
+	text-align: center;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.catalogue_p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.card_product {
+    width: calc(25% - 15px);
+    min-width: 250px;
+}
