@@ -1,0 +1,49 @@
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input,
+textarea {
+    border: 1px solid #363636;
+    padding: 12px 25px;
+    font-size: 18px;
+    width: 90%;
+    max-width: 90%;
+}
+
+textarea {
+    min-height: 50px;
+    max-height: 150px;
+}
+
+.create_product_form {
+    width: 680px;
+    margin: 25px auto;
+    padding: 25px 60px;
+    background-color: #A793851A;
+}
+
+.btn_create_product {
+    display: block;
+    width: 50%;
+    padding: 12px 33px;
+    background: #FFFFFF;
+    border: 1px solid #363636;
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.btn_create_product:hover, input::-webkit-file-upload-button:hover {
+    color: white;
+    background: #363636;
+}
+input::-webkit-file-upload-button{
+    font-family: 'Cormorant Garamond';
+    padding: 12px 33px;
+    background: #FFFFFF;
+    border: 1px solid #363636;
+    font-size: 18px;
+    margin-right: 15px;
+}

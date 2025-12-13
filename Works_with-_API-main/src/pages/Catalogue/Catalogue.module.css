@@ -1,0 +1,83 @@
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.title_head{
+    margin-top: 60px;
+font-style: italic;
+font-weight: 300;
+font-size: 64px;
+}
+.title_descr{
+    margin: 50px auto;
+width: 1346px;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+}
+
+.catalogue_p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.card_product {
+    width: calc(25% - 15px);
+    min-width: 250px;
+}
+
+.other {
+    background-color: #A793851A;
+}
+
+.other h3 {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.other_products {
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 12px 33px;
+    background: #FFFFFF;
+    border: 1px solid #363636;
+    font-size: 18px;
+    }
+    .button:hover{
+        color: white;
+        background: #363636;
+        }
+    .create_product_section{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    
+    section{
+        margin: 25px 2vw;
+    }
+    .cool{
+        display: flex;
+        gap: 15px;
+    }
+    .p_cool{
+        font-size: 32px;
+        font-weight: bold;
+    }
